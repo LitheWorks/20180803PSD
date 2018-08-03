@@ -13,8 +13,29 @@ class TestShip(unittest.TestCase):
 
         self.assertTrue(self.ship.receive_fire(Point(1, 2)))
 
-    def test_dummy(self):
+    def test_false(self):
+        self.assertFalse(False)
+
+    def test_true(self):
         self.assertTrue(True)
+
+    def test_true2(self):
+        self.assertTrue(True)
+
+
+class TestDummy(unittest.TestCase):
+    def setUp(self):
+        self.ship = ships.Ship("TestShip", 4, "White")
+
+    def test_false2(self):
+        self.assertFalse(False)
+
+    def test_true3(self):
+        self.assertTrue(True)
+
+    def test_true4(self):
+        self.assertTrue(True)
+
 
 if '__main__' == __name__:
     unittest.main()
