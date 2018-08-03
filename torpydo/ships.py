@@ -10,6 +10,7 @@ class Orientation(Enum):
 
 
 class Point(NamedTuple):
+
     """
     A two-dimensional, Cartesian coordinate.
     """
