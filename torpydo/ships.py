@@ -13,6 +13,7 @@ class Point(NamedTuple):
     """
     A two-dimensional, Cartesian coordinate.
     """
+
     x: int
     y: int
 
