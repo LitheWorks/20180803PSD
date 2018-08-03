@@ -4,4 +4,5 @@ python:
 script:
   - python -m pytest -v
   - pylint torpydo/battleship.py
-  - pylint torpydo\battleship.py
+  - pylint torpydo/ships.py
+  - pylint torpydo/user_interface.py
