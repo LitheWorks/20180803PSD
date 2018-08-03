@@ -6,4 +6,5 @@ script:
   - pylint torpydo/battleship.py
   - pylint torpydo/ships.py
   - pylint torpydo/user_interface.py
-  - pyline torpydo/*.py
+  - pylint torpydo/*.py
+  - pylint torpydo
