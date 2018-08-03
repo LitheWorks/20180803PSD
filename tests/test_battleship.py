@@ -13,6 +13,8 @@ class TestShip(unittest.TestCase):
 
         self.assertTrue(self.ship.receive_fire(Point(1, 2)))
 
+    def test_dummy(self):
+        self.assertTrue(False)
 
 if '__main__' == __name__:
     unittest.main()
