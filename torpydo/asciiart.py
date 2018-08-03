@@ -1,3 +1,5 @@
+"""ASCII ART FILE FOR TORPYDO"""
+
 ASCII_BATTLESHIP = r"""
                                     |__
                                     |\/
