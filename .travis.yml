@@ -8,4 +8,4 @@ script:
 #  - pylint torpydo/user_interface.py
 #  - pylint torpydo/*.py
   - pylint torpydo
-  - coverage run test/test_battleship.py
+  - coverage run tests/test_battleship.py

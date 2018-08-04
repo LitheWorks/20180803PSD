@@ -37,6 +37,22 @@ class TestDummy(unittest.TestCase):
         self.assertTrue(True)
 
 
+class TestTDD(unittest.TestCase):
+    def setUp(self):
+        self.num1 = 1
+        self.num2 = 1
+
+
+    def test_add1_2(self):
+        self.assertEqual(3, self.addnums(self.num1, self.num2))
+
+    def test_true3(self):
+        self.assertTrue(True)
+
+    def test_true4(self):
+        self.assertTrue(True)
+
+
 if '__main__' == __name__:
     unittest.main()
 
