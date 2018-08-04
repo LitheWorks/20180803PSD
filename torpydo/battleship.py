@@ -115,6 +115,7 @@ class BattleshipGame(object):
             pass
 
     def do_turn(self, turn_number):
+
         self.ui.draw_board(turn_number, self.player_1)
         player_shot = self.ui.get_player_shot(self.player_1)
         hit, sunk_ship = self.player_2.receive_fire(player_shot)
