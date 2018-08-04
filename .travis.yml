@@ -7,5 +7,5 @@ script:
 #  - pylint torpydo/ships.py
 #  - pylint torpydo/user_interface.py
 #  - pylint torpydo/*.py
-  - pylint torpydo
-  - coverage run tests/test_battleship.py
+#  - pylint torpydo
+#  - coverage run tests/test_battleship.py
